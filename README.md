@@ -1,8 +1,6 @@
 Get many referred pages in Wikipedia
 ====
 
-Overview
-
 ## Description
 * makeRefCnt.py - count referring pages of each page and make file "referredCnt.txt"
 * searchGraphGroup.py - get title and sum of the pages which referred more than input number.
