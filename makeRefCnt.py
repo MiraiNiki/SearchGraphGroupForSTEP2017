@@ -9,7 +9,7 @@ referredCntList = [0 for i in range(ALL_PAGES)]
 for line in open('links.txt', 'r'):
 	referList = line[:-1].split('\t')
 	i = referList[1]
-	referredCntList[int(i)] += 1
+	referredCntList[int(i)-1] += 1
 
 #referredCnt.txtというファイルに参照先の参照回数を書き込む
 f = open('referredCnt.txt', 'w')
